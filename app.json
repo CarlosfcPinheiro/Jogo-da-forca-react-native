@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "expo-jogo-da-forca",
+    "slug": "expo-jogo-da-forca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "helloworld",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlosp82.expojogodaforca"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.carlosp82.expojogodaforca"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "719d6d55-4333-4e27-b15d-3b858b632e1b"
+      }
+    },
+    "owner": "carlosp82",
+    "updates": {
+      "url": "https://u.expo.dev/719d6d55-4333-4e27-b15d-3b858b632e1b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
